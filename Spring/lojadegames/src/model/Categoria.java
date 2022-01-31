@@ -1,4 +1,4 @@
-package br.org.generation.lojagames.model;
+package br.org.generation.lojadegames.model;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package br.org.generation.lojagames.model;
+package br.org.generation.lojadegames.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -45,6 +45,10 @@ public class Produto {
 	@ManyToOne
 	@JsonIgnoreProperties("produto")
 	private Categoria categoria;
+	
+	@ManyToOne
+	@JsonIgnoreProperties("produto")
+	private Usuario usuario;
 	
 	@NotBlank
 	@Size(min = 5, max = 100)
@@ -126,6 +130,12 @@ public class Produto {
 		this.categoria = categoria;
 	}
 
-	
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
+	}
 	
 }
