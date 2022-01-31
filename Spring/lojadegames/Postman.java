@@ -309,7 +309,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Basic YWRtaW4yQGVtYWlsLmNvbToxMjM0NTY3OA==",
+								"value": "Basic Ex3mpl0",
 								"type": "text"
 							}
 						],
@@ -335,7 +335,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Basic YWRtaW4yQGVtYWlsLmNvbToxMjM0NTY3OA==",
+								"value": "Basic Ex3mpl0",
 								"type": "text"
 							}
 						],
@@ -419,7 +419,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Basic YWRtaW4yQGVtYWlsLmNvbToxMjM0NTY3OA==",
+								"value": "Basic Ex3mpl0=",
 								"type": "text"
 							}
 						],
